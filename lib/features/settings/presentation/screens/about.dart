@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:trelza_pubseek/shared/extensions/app_theme_extensions.dart';
-import 'package:trelza_pubseek/shared/widgets/custom_container.dart';
+import 'package:trelza_peekpub/shared/extensions/app_theme_extensions.dart';
+import 'package:trelza_peekpub/shared/widgets/custom_container.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -101,7 +101,9 @@ class About extends StatelessWidget {
                       ),
                     ),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    _launch("https://github.com/aswin-asokan/peekpub");
+                  },
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     spacing: 10,

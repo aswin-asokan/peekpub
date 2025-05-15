@@ -1,4 +1,4 @@
-package com.trelza.pubseek
+package com.trelza.peekpub
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:trelza_pubseek/core/themes/dark_theme.dart';
-import 'package:trelza_pubseek/core/themes/light_theme.dart';
-import 'package:trelza_pubseek/features/home/presentation/screens/home.dart';
+import 'package:trelza_peekpub/core/themes/dark_theme.dart';
+import 'package:trelza_peekpub/core/themes/light_theme.dart';
+import 'package:trelza_peekpub/features/home/presentation/screens/home.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
@@ -48,7 +48,12 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       title: 'Trelza PeekPub',
       locale: _locale,
-      supportedLocales: const [Locale('en'), Locale('es')],
+      supportedLocales: const [
+        Locale('en'),
+        Locale('es'),
+        Locale('hi'),
+        Locale('ml'),
+      ],
       localizationsDelegates: const [
         AppLocalizations.delegate,
         GlobalMaterialLocalizations.delegate,

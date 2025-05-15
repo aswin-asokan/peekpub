@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:trelza_pubseek/features/settings/presentation/screens/settings.dart';
-import 'package:trelza_pubseek/shared/extensions/app_theme_extensions.dart';
+import 'package:trelza_peekpub/features/settings/presentation/screens/settings.dart';
+import 'package:trelza_peekpub/shared/extensions/app_theme_extensions.dart';
 
 class CustomAppbar extends StatelessWidget implements PreferredSizeWidget {
   const CustomAppbar({

@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:trelza_pubseek/features/home/model/package_model.dart';
+import 'package:trelza_peekpub/features/home/model/package_model.dart';
 import 'package:http/http.dart' as http;
 
 class FetchResult {

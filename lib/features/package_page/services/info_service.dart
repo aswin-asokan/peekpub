@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:trelza_pubseek/features/package_page/model/info_model.dart';
+import 'package:trelza_peekpub/features/package_page/model/info_model.dart';
 import 'package:http/http.dart' as http;
 
 class PubDevService {

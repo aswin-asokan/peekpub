@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:trelza_pubseek/shared/widgets/custom_container.dart';
-import 'package:trelza_pubseek/features/package_page/widgets/link_button.dart';
-import 'package:trelza_pubseek/shared/extensions/app_theme_extensions.dart';
+import 'package:trelza_peekpub/shared/widgets/custom_container.dart';
+import 'package:trelza_peekpub/features/package_page/widgets/link_button.dart';
+import 'package:trelza_peekpub/shared/extensions/app_theme_extensions.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class TitleBlock extends StatelessWidget {

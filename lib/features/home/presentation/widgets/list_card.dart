@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:trelza_pubseek/shared/widgets/custom_container.dart';
-import 'package:trelza_pubseek/shared/extensions/app_theme_extensions.dart';
+import 'package:trelza_peekpub/shared/widgets/custom_container.dart';
+import 'package:trelza_peekpub/shared/extensions/app_theme_extensions.dart';
 
 class ListCard extends StatelessWidget {
   const ListCard({

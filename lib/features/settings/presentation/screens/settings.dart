@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:trelza_pubseek/features/settings/presentation/screens/lang_page.dart';
-import 'package:trelza_pubseek/features/settings/presentation/screens/about.dart';
-import 'package:trelza_pubseek/features/settings/presentation/widgets/settings_options.dart';
-import 'package:trelza_pubseek/shared/extensions/app_theme_extensions.dart';
-import 'package:trelza_pubseek/shared/widgets/custom_container.dart';
+import 'package:trelza_peekpub/features/settings/presentation/screens/lang_page.dart';
+import 'package:trelza_peekpub/features/settings/presentation/screens/about.dart';
+import 'package:trelza_peekpub/features/settings/presentation/widgets/settings_options.dart';
+import 'package:trelza_peekpub/shared/extensions/app_theme_extensions.dart';
+import 'package:trelza_peekpub/shared/widgets/custom_container.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -89,7 +89,7 @@ class Settings extends StatelessWidget {
                       SharePlus.instance.share(
                         ShareParams(
                           text:
-                              '${context.loc.shareInfo} \nhttps://example.com',
+                              '${context.loc.shareInfo}, https://github.com/aswin-asokan/peekpub/releases',
                         ),
                       );
                     },
@@ -97,7 +97,9 @@ class Settings extends StatelessWidget {
                   SettingsOptions(
                     icon: Icons.apps,
                     title: context.loc.more,
-                    onTap: () {},
+                    onTap: () {
+                      _launch("https://trelza-apps.vercel.app/");
+                    },
                   ),
                   SettingsOptions(
                     icon: Icons.coffee_rounded,

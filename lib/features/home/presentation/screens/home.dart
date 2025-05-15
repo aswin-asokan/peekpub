@@ -1,13 +1,13 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:trelza_pubseek/features/home/model/package_model.dart';
-import 'package:trelza_pubseek/features/home/presentation/widgets/error_card.dart';
-import 'package:trelza_pubseek/features/home/presentation/widgets/list_card.dart';
-import 'package:trelza_pubseek/features/home/presentation/widgets/loading.dart';
-import 'package:trelza_pubseek/features/home/services/package_service.dart';
-import 'package:trelza_pubseek/features/package_page/screens/package_page.dart';
-import 'package:trelza_pubseek/shared/extensions/app_theme_extensions.dart';
-import 'package:trelza_pubseek/shared/widgets/custom_appbar.dart';
+import 'package:trelza_peekpub/features/home/model/package_model.dart';
+import 'package:trelza_peekpub/features/home/presentation/widgets/error_card.dart';
+import 'package:trelza_peekpub/features/home/presentation/widgets/list_card.dart';
+import 'package:trelza_peekpub/features/home/presentation/widgets/loading.dart';
+import 'package:trelza_peekpub/features/home/services/package_service.dart';
+import 'package:trelza_peekpub/features/package_page/screens/package_page.dart';
+import 'package:trelza_peekpub/shared/extensions/app_theme_extensions.dart';
+import 'package:trelza_peekpub/shared/widgets/custom_appbar.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key}); // Changed from Home to Home
