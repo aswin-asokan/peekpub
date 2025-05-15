@@ -1,0 +1,65 @@
+{
+    "@@locale": "es",
+    "home":"Hogar",
+    "@home": {},
+    "packagePageTitle": "Información del paquete",
+    "@packagePageTitle": {
+        "description": "Title for the package page"
+    },
+    "error":"No se puede obtener la información del paquete",
+    "@error": {
+        "description": "Error message when package info cannot be fetched"
+    },
+    "goBack":"Volver",
+    "@goBack": {
+        "description": "Button text to go back to the previous page"
+    },
+    "notavailable":"No disponible",
+    "@notavailable": {
+        "description": "Text indicating that a feature is not available"
+    },
+    "version":"versión",
+    "@version": {
+        "description": "Text indicating version"
+    },
+    "platforms":"Plataformas",
+    "@platforms": {
+        "description": "Text indicating platforms"
+    },
+    "description":"Descripción",
+    "@description": {"description": "Text indicating decsription of packages"},
+    "language":"Idioma",
+    "@language": {},
+    "chooseLang":"¡Elige cómo te gustaría leer las cosas!",
+    "@chooseLang": {},
+    "discontinued":"Interrumpido",
+    "@discontinued": {},
+    "noGit":"El enlace de GitHub no está disponible para este paquete.",
+    "@noGit": {},
+    "published":"Publicado el",
+    "@published": {},
+    "about":"Acerca de la aplicación",
+    "@about": {},
+    "fullInfo":"Trezla PeekPub es tu herramienta ideal para descubrir, rastrear y explorar paquetes de pub.dev. Tanto si eres principiante en Flutter como si eres un desarrollador experimentado, PeekPub facilita la búsqueda de información detallada de paquetes, la comprobación de la compatibilidad con plataformas y el acceso directo a la documentación oficial y el código fuente.",
+    "@fullInfo": {},
+    "newFeatures":"Próximas funciones",
+    "@newFeatures": {},
+    "favPack":"Paquetes favoritos",
+    "@favPack": {},
+    "showNewVer":"Mostrar actualizaciones de paquetes",
+    "@showNewVer": {},
+    "settings":"Ajustes",
+    "@settings": {},
+    "info":"Manténgase actualizado con los cambios de versión, las plataformas compatibles y la información esencial del paquete, todo en un solo lugar.",
+    "@info": {},
+    "share":"Compartir con amigos",
+    "@share": {},
+    "shareInfo":"Consulta Trelza PeekPub y realiza un seguimiento de los paquetes de Flutter desde Pub.dev",
+    "@shareInfo": {},
+    "more":"Más de nosotros",
+    "@more": {},
+    "coffee":"Cómprame un café",
+    "@coffee": {},
+    "search":"Buscar",
+    "@search": {}
+}

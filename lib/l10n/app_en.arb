@@ -1,0 +1,66 @@
+{
+    "@@locale": "en",
+    "home":"Home",
+    "@home": {},
+    "packagePageTitle": "Package Info",
+    "@packagePageTitle": {
+        "description": "Title for the package page"
+    },
+    "error":"Cannot fetch package info",
+    "@error": {
+        "description": "Error message when package info cannot be fetched"
+    },
+    "goBack":"Go Back",
+    "@goBack": {
+        "description": "Button text to go back to the previous page"
+    },
+    "notavailable":"Not Available",
+    "@notavailable": {
+        "description": "Text indicating that a feature is not available"
+    },
+    "version":"Version",
+    "@version": {
+        "description": "Text indicating version"
+    },
+    "platforms":"Platforms",
+    "@platforms": {
+        "description": "Text indicating platforms"
+    },
+    "description":"Description",
+    "@description": {"description": "Text indicating decsription of packages"},
+    "language":"Language",
+    "@language": {},
+    "chooseLang":"Choose how you'd like to read things!",
+    "@chooseLang": {},
+    "discontinued":"Discontinued",
+    "@discontinued": {},
+    "noGit":"GitHub link is not available for this package.",
+    "@noGit": {},
+    "published":"Published on",
+    "@published": {},
+    "about":"About App",
+    "@about": {},
+    "fullInfo":"Trezla PeekPub is your go-to companion for discovering, tracking, and exploring packages from pub.dev. Whether you're a Flutter beginner or an experienced developer, PeekPub makes it easy to browse detailed package information, check platform compatibility, and jump directly to official documentation and source code.",
+    "@fullInfo": {},
+    "newFeatures":"Upcoming Features",
+    "@newFeatures": {},
+    "favPack":"Favorite Packages",
+    "@favPack": {},
+    "showNewVer":"Show Package Updates",
+    "@showNewVer": {},
+    "settings":"Settings",
+    "@settings": {},
+    "info":"Stay up to date with version changes, supported platforms, and essential package insights all in one place.",
+    "@info": {},
+    "share":"Share with Friends",
+    "@share": {},
+    "shareInfo":"Check out Trelza PeekPub, keep track of Flutter packages from Pub.dev",
+    "@shareInfo": {},
+    "more":"More From Us",
+    "@more": {},
+    "coffee":"Buy me a Coffee",
+    "@coffee": {},
+    "search":"Search",
+    "@search": {}
+
+}
