@@ -1,5 +1,7 @@
 # Trelza PeekPub 🐦
 
+![peekpub_round](https://github.com/user-attachments/assets/21432c25-7332-4708-a8a8-0d6cf079e009)
+
 Trelza PeekPub is a clean and lightweight pub.dev tracker app built to help developers browse, search, and explore Flutter/Dart packages effortlessly. Whether you're looking for the latest package versions, supported platforms, or official links (pub.dev, docs, GitHub), PeekPub helps you quickly find the perfect package for your project.
 
 ### 🚀 Features
